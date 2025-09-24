@@ -39,7 +39,7 @@ class _InputFormState extends State<InputForm> {
               if (formState.validate()) {
                 return;
               }
-              debugPrint('text = ${_textEditingController}');
+              debugPrint('text = ${_textEditingController.text}');
             },
             child: const Text('変換'),
           ),
